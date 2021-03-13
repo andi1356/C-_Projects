@@ -8,7 +8,10 @@
 * scores, a list of integers representing the scores of the players.
 *        Output
 * Return an integer representing the number of players who will be able to level up their characters at the end of the round.
+*
+*	Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
 */
+
 #include <algorithm>
 #include <iostream>
 
@@ -31,11 +34,11 @@ int nextLevel(int cutOffRank, int num, int scores[]){
         }
         else
             x[i]=i+1;
-        
+
     }
     // std::cout<<x[0]<<x[1]<<x[2]<<x[3];
     std::cout<<x[0]<<x[1]<<x[2]<<x[3]<<x[4];
-    
+
     for(int i=cutOffRank-1; i<num-1; ++i){
         if(x[i]==x[i+1]){
             R=i+2;

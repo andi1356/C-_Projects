@@ -1,7 +1,9 @@
-//argumente: numOfBuildings , int pt nr de cladiri, 
-//           buildingOpenTime , int[] pt ora la care se deschide fiecare cladire
-//           offLoadTime , int[] reprezentand timpul de descarcare pt fiecare livrare
-
+/*argumente: numOfBuildings , int pt nr de cladiri,
+*           buildingOpenTime , int[] pt ora la care se deschide fiecare cladire
+*           offLoadTime , int[] reprezentand timpul de descarcare pt fiecare livrare
+*
+*	  Author: Andrei-Antonio Robu (andrei-antonio.robu@student.tuiasi.ro)
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
